@@ -3,6 +3,7 @@
 ## How to run:
 * Download the journal.zip file and upload its contents to CodeHS
 * In the terminal window, run “pip install pytz” to download pytz, which is used to get timezone
+* In the terminal window, run "pip install -r requirements.txt" to download the requirements for the project
 * In the terminal window, type "cd journal" to enter the project folder
 * Type "flask run" in the terminal window and click on the link that appears. You should be directed to the website log in page.
 
@@ -11,18 +12,21 @@
 * Enter the information requested and click submit
 ! Note that if you enter missing or incorrect information (i.e. two passwords do not match), you will get error messages from Handsome Dan
 * Once you register with all the requested information, you will be automatically signed in to your account.
+![Register](images/register.png)
 
 ## Start using the Yalie Wellness Journal:
 * The first page that you will see after registering is the home page, which includes:
 	* An appropriate greeting based on the time of the day (good morning, good afternoon, or good night), including your name
 	* The time, which is displayed using the time and datetime modules
 	* A random quote picked from a database of 200 quotes (see the quotes database inside journal.db)
+![Home Page](images/home_page.png)
 
 ## New Entry:
 * To enter a new journal entry, click on "New Entry" on the Navigation Bar
 * There, you will see that the first question asks for the date of the entry. Press today if you want to use today's date
 * Answer all questions, including the one that prompts you to ask an original prompt to yourself. Do not forget to answer the original prompt too.
 * Lastly, rate your day on a scale of 1-5, and submit your entry
+![New Entry](images/new_entry.png)
 
 ## Past Entries:
 * To see all of your past entries, click on the Past Entries button in the Navigation Bar
@@ -34,6 +38,8 @@
 * Search Function: To search an event from the long list of events, type the keywords you would like to search in the search box.
 	* Please do not click on the "Search Button," as the information will be filtered dynamically as you type.
 	* To go back to the unfiltered table, delete your input on the search box and click on the Search button
+
+![Yale Calendar](images/yale_calendar.png)
 
 ## Change Password:
 * To change your password, click on the Change Password button on the Navigation Bar.
