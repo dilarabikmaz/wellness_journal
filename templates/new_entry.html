@@ -1,0 +1,35 @@
+<!-- Import layout from layout.html -->
+{% extends "layout.html" %}
+
+{% block title %}
+    New Entry
+{% endblock %}
+
+{% block main %}
+    <!-- Construct form to prompt the user for date and answers to different prompts-->
+    <!-- textarea used to receive paragraph answers -->
+    <form action="/new_entry" method="post">
+        <label for="prompt">Date:</label><br>
+        <input type="date" id="date" name="date"
+            value="2018-07-22"
+            min="2018-01-01" max="2022-12-31"><br><br>
+        <label for="prompt">Things that I am grateful for:</label><br>
+        <textarea id="prompt" name="prompt1" rows="4" cols="50">
+        </textarea><br><br>
+        <label for="prompt">Things that currently occupy my mind:</label><br>
+        <textarea id="prompt" name="prompt2" rows="4" cols="50">
+        </textarea><br><br>
+        <label for="prompt">What I'm looking forward to:</label><br>
+        <textarea id="prompt" name="prompt3" rows="4" cols="50">
+        </textarea><br><br>
+        <label for="prompt">Write a prompt for yourself</label><br>
+        <textarea id="prompt" name="extra" rows="1" cols="50">
+        </textarea><br><br>
+        <label for="prompt">Answer your own prompt</label><br>
+        <textarea id="prompt" name="extra_ans" rows="4" cols="50">
+        </textarea><br><br>
+        <label for="prompt">My rating for today (between 1-5):</label><br>
+        <input type="number" id="prompt" name="rating" min="1" max="5"><br><br>
+        <button class="btn btn-primary" type="submit">Submit Entry</button>
+    </form>
+{% endblock %}

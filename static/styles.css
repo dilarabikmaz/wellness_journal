@@ -1,0 +1,101 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+label {
+    color: white;
+}
+
+/* Background image full size */
+/* Style source: https://www.geeksforgeeks.org/5-amazing-css-styles-that-every-developer-should-know/ */
+.msg {
+    font-family: "Lucida Console";
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 0px blue;
+}
+
+h1 {
+    font-family: "Arial Black", Arial;
+    border: white;
+
+}
+
+h2 {
+    font-family: "Arial Black", Arial;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 200px;
+    align-items: center;
+}
+
+h3 {
+    font-size: small;
+    font-family: "Arial Black", Arial;
+}
+
+#prompt {
+    font-family: "Arial Black", Arial;
+    font-size: 12px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.quote {
+    font-family: "Arial Black", Arial
+    font-size: small;
+    width: 100%;
+    height: 80px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    position: fixed;
+    bottom: 0.5;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: white;
+    border: white;
+}
+
+table td {
+    word-wrap: break-word;
+    color: white;
+    border: white;
+}
+
+table tr,th {
+    color: white;
+}
+
+.table table-bordered table-dark {
+    opacity: 0.5
+}

@@ -1,0 +1,14 @@
+<!-- Import layout from layout.html -->
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- Photo source: https://twitter.com/HandsomeDanYale/status/1588174862002311171/photo/1 -->
+    <img alt="{{ top }}" class="border img-fluid" style="width:30%;height:30%" src="static/dan.jpg" title="dan">
+    <div>
+        <h2 class="msg">{{ message }}</body> <!-- Print the appropriate error message -->
+    </div>
+{% endblock %}

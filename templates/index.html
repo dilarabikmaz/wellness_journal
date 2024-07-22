@@ -1,0 +1,15 @@
+<!-- Import layout from layout.html -->
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<!-- If the user is logged in, display the appropriate greeting message, name, quote, and author-->
+    {% if session["user_id"] %}
+        <h1>{{ greeting }}</h3><br><br><br><br><br><br> <!-- All variables are defined in app.py and displayed using Jinja -->
+        <h2>{{ time }}</h2><br><br><br><br>
+        <h3 class="quote">"{{ quote }}"<br>-{{ author }}</h3>
+    {% endif %}
+{% endblock %}

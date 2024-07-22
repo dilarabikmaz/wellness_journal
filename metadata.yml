@@ -1,0 +1,14 @@
+---
+:id: 153891748
+:submitters:
+- :name: Dilara Bikmaz
+  :email: handandilara.bikmaz@yale.edu
+- :name: Mina Aral
+  :email: minabengi.aral@yale.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-12-12 04:41:06.793230000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-12-11 20:41:06.793230000 Z
+:status: processed
+:score: 17.0
