@@ -1,4 +1,5 @@
 # The Yalie Wellness Journal
+This project was developed as a final group project for CS50.
 
 ## How to run:
 * Download the journal.zip file and upload its contents to CodeHS
